@@ -1,0 +1,22 @@
+#asp_settings textarea {
+    width: 100%;
+    min-height: 110px;
+    resize: vertical;
+}
+
+#asp_settings .asp_row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 0;
+    flex-wrap: wrap;
+}
+
+#asp_settings .asp_row input[type="number"] {
+    width: 80px;
+}
+
+#asp_settings .asp_hint {
+    opacity: 0.7;
+    font-size: 0.85em;
+}
